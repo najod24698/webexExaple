@@ -1,0 +1,615 @@
+@import "react-alice-carousel/lib/alice-carousel.css"; /* carousel */
+
+
+.cisco {
+    color:  black;
+    padding-top: 12vh;
+    background-color: #000;
+    color: #fff;
+}
+
+.introducing {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.introducing span {
+    margin-bottom: 20px;
+    padding-top: 15vh;
+    color: rgb(140, 140, 255);
+    font-size: 20px;
+}
+
+.introducing h1{
+    font-size: 50px;
+}
+
+.introducing p{
+    font-size: 24px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.introducing .hp_hero_btn {
+    width: 30vh;
+    background-color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+    border-radius: 20vh;
+    cursor: pointer;
+
+}
+
+.hp_hero_btn .hp_sign_up {
+    color: #000;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+.cisco_img {
+    width: 90%;
+    margin: auto;
+    margin-top: 20vh;
+    padding-bottom: 15vh;
+}
+
+.cisco_img img{
+    width: 100%;
+    /* height: 150vh; */
+    z-index: -9;
+}
+
+
+/* cisco_section1 */
+
+.cisco_section1 {
+    background: #191919;
+    /* background: #535353; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cisco_section1 .onx{
+    padding-top: 15vh;
+    width: 25rem;
+
+}
+
+.cisco_section1 h2{
+    font-size: 50px;
+    font-family: sans-serif;
+    font-weight: 300;
+    text-align: center;
+    letter-spacing: 2px;
+    margin-top: 6vh;
+    margin-bottom: 10vh;
+}
+
+.experience1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 85%;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+
+.experience1 h3 {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-size: 25px;
+}
+
+.cisco_section1 p {
+    font-size: 18px;
+    color: rgb(201, 191, 191);
+}
+
+.seamless {
+    width: 40%;
+    height: 30vh;
+    margin-right: 10vh;
+    padding-right: 20vh;
+}
+
+.smart_hybrid {
+    width: 40%;
+    height: 30vh;
+    margin-left: 10vh;
+    /* padding-left: 5vh; */
+}
+
+.experience1 .experience1_icon {
+    font-size: 40px;
+}
+
+.experience2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 85%;
+    margin-top: 7vh;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+
+.experience2 h3 {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-size: 25px;
+}
+
+.cisco_section2 p {
+    font-size: 18px;
+    color: rgb(201, 191, 191);
+}
+
+.experience2 .experience1_icon {
+    font-size: 40px;
+}
+
+.intelligent {
+    width: 40%;
+    height: 30vh;
+    margin-right: 10vh;
+    padding-right: 20vh;
+}
+
+.security {
+    width: 40%;
+    height: 30vh;
+    margin-left: 10vh;
+}
+
+/* .cisco_section1_btn {
+
+} */
+
+.section1_btn {
+    padding: 12px 35px;
+    border-radius: 20vh;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    border: 1.5px solid white;
+    color: white;
+    font-size: 15px;
+    margin-bottom: 15vh;
+    cursor: pointer;
+}
+
+.section1_btn:hover {
+    background-color: white;
+    color: #000;
+}
+
+
+
+/* cisco_section_2 */
+
+.cisco_section_2 {
+    height: 70vh;
+
+}
+
+.cisco_section_2_wrappper {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cisco_section_2 .caption{
+    color: rgb(9, 203, 252);
+    font-size: 20px;
+    text-align: center;
+    padding-top: 15vh;
+}
+
+.partner_list li {
+    display: inline-block;
+    padding: 25px;
+}
+
+.partner_list li img{
+    width: 100px;
+}
+
+.cisco_section_2 .latest {
+    text-align: center;
+    font-size: 40px;
+    padding-top: 14vh;
+    background-color: #000;
+    padding-bottom: 20vh;
+}
+
+
+/* f_scroll_body  */
+
+.f_scroll_body{
+    display: flex;
+    background-color: #000;
+    height: 80vh;
+}
+
+.f_scroll_body .scroll_text {
+    width: 60%;
+    overflow: hidden;
+    overflow-y: scroll;
+    max-height: 75vh;
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar-thumb{
+    height: 10px;
+    background-color: rgb(42, 61, 165);
+}
+
+::-webkit-scrollbar{
+    width: 5px;
+    border-radius: 50px;
+    background-color: rgb(9, 203, 252);
+}
+
+.scroll_ul {
+    width: 60%;
+    margin: auto;
+}
+
+.scroll_ul li {
+    /* opacity: 0.9; */
+    padding: 40px 0px;
+    list-style-type: none;
+}
+
+.scroll_ul p{
+    margin-top: 15px;
+}
+
+
+.scroll_ul li h4 {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 36px;
+    margin-bottom: 10px;
+}
+
+.f_scroll_body .scroll_img {
+    width: 45%;
+}
+
+.f_scroll_body .scroll_img img{
+    width: 100%;
+    height: 75vh;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+
+
+/* cisco_section_3 */
+.cisco_section_3 {
+    margin-top: 46rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.cisco_section_3_wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 10vh;
+}
+
+.cisco_section_3 h1 {
+    text-align: center;
+    font-size: 50px;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+
+.others {
+    display: flex;
+}
+
+.others_icon {
+    margin: 0px 10px;
+}
+
+.others_icon img {
+    width: 150px;
+    height: 150px;
+}
+
+.cisco_section_3_btn {
+    width: 30vh;
+    margin: auto;
+    margin-top: 10vh;
+    height: 50px;
+    width: 65vh;
+    background-color: transparent;
+    color: white;
+    border-radius: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20vh;
+    border: none;
+    border: 1px solid #fff;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.cisco_section_3_btn:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+/* footer */
+
+.footer {
+    background-color: #121212;
+}
+
+.footer_wrapper {
+    width: 92%;
+    margin: auto;
+    display: flex;
+    background-color: #121212;
+    padding-bottom: 10vh;
+}
+
+.footer_icons {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.in {
+    margin: 0px 10px;
+}
+
+.face {
+    margin: 0px 10px;
+}
+
+.youtube {
+    margin: 0px 10px;
+}
+
+.wifi {
+    margin: 0px 10px;
+}
+
+.instag {
+    margin: 0px 10px;
+}
+
+
+/* footer img */
+.footer_img {
+    width: 25%;
+    /* height: 20vh; */
+    background: rgba(0, 126, 168, 0.28);
+}
+
+.footer_img a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer_img a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+.footer_img_wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 15vh;
+}
+
+.footer_img_wrapper .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+}
+
+.footer_img_wrapper img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.footer_img_wrapper h4 {
+    color: white;
+    font-size: 25px;
+    margin-bottom: 5vh;
+}
+
+.footer_img_wrapper h4 span {
+    color:rgb(9, 203, 252);
+}
+
+.footer_img_wrapper a {
+    margin-bottom: 30px;
+}
+
+/* footer_text */
+.footer_text{
+    width: 75%;
+    padding-top: 15vh;
+    margin-left: 50px;
+}
+
+.footer_text a {
+    color: rgb(243, 240, 240);
+    text-decoration: none;
+    display: block;
+    font-size: 15px;
+}
+
+.footer_text p {
+    margin-bottom: 40px;
+    color: rgb(173, 173, 173);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.footer_text_wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+/* solutions */
+.solutions {
+    width: 20%;
+    margin: 0px 20px;
+}
+
+.solutions a {
+    margin-top: 20px;
+}
+
+.solutions a:hover{
+    text-decoration: underline;
+    color: red;
+}
+
+/* features */
+.features {
+    width: 20%;
+    margin: 0px 20px;
+}
+
+.features a {
+    margin-top: 20px;
+}
+
+.features a:hover{
+    text-decoration: underline;
+    color: red;
+}
+
+/* weex_for */
+.weex_for {
+    width: 20%;
+    margin: 0px 20px;
+}
+
+.weex_for a {
+    margin-top: 20px;
+}
+
+.weex_for a:hover{
+    text-decoration: underline;
+    color: red;
+}
+
+/* help_learning */
+.help_learning {
+    width: 20%;
+    margin: 0px 20px;
+}
+
+.help_learning a {
+    margin-top: 20px;
+}
+
+.help_learning a:hover{
+    text-decoration: underline;
+    color: red;
+}
+
+/* company */
+.company {
+    width: 20%;
+    margin: 0px 20px;
+}
+
+.company a {
+    margin-top: 20px;
+}
+
+.company a:hover{
+    text-decoration: underline;
+    color: red;
+}
+
+
+/* united_states */
+.united_states {
+    display: flex;
+    align-items: center;
+    float: right;
+    margin-right: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+
+.united_States_111 {
+    background-color: white;
+    position: absolute;
+    right: 13vh;
+    top: 750vh;
+    padding: 25px 20px;
+    border-radius: 7px;
+    display: none;
+}
+
+.united_States_111 p {
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.united_States_111 a {
+    color: #000;
+    text-decoration: none;
+}
+
+.united_States_111 a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+.united_States_111 a {
+    color: #000;
+    text-decoration: none;
+}
+
+.united_states span {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.united_States_111_tg {
+    width: 0;
+    height: 0;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    margin-top: 55px;
+    border-top: 35px solid rgb(255, 255, 255);
+    position: absolute;
+    top: 69vh;
+    right: 3vh;
+}
+
+/* copy_right */
+.copy_right {
+    margin-top: 10vh;
+    margin-right: 30px;
+    float: right;
+}
